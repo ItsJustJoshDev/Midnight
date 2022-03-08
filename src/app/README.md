@@ -103,7 +103,7 @@
 # 10. Modals
 	- 10.a. Replace Backdrop
 	- 10.b. Global Modals
-	- 10.c. User Profile Modals
+	- 10.c. User Profile Modals | Done.
 	- 10.d. Expanded Image Modal
 	- 10.e. Keyboard Shortcuts Modal
 	- 10.f. Guild Invite Modal
