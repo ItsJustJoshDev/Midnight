@@ -1,14 +1,16 @@
 TABLE OF CONTENTS
 
-1. Global Attributes
-    1.a. Master Variables
-    1.b. Fonts and Text Scaling + Coloration
-	1.c. Selection & Links
-	1.d. Scrollbars
-	1.e. Tooltips
-	1.f. Global Keyframes
-	1.g. Spinners
-	1.h. Unsupported Settings
+# 1. Global Attributes
+
+    - 1.a. Master Variables
+    - 1.b. Fonts and Text Scaling + Coloration
+
+	- 1.c. Selection & Links
+	- 1.d. Scrollbars
+	- 1.e. Tooltips
+	- 1.f. Global Keyframes
+	- 1.g. Spinners
+	- 1.h. Unsupported Settings
 
 2. Titlebar
     2.a. Windows Titlebar and Buttons
