@@ -1,113 +1,11 @@
-@import url(https://bdsources.github.io/sourcecheck/code.css);
-@import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
-@import url(https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css);
-@import url(https://rsms.me/inter/inter.css);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://monstrousdev.github.io/themes/addons/user-tags.css);
-
-@font-face {
-  font-family: 'Segoe UI Emoji';
-  src: local('Segoe UI Emoji'), local('SegoeUIEmoji'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUIEmoji.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUIEmoji.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI Symbol';
-  src: local('Segoe UI Symbol'), local('SegoeUISymbol'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUISymbol.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUISymbol.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe MDL2 Assets';
-  src: local('Segoe MDL2 Assets'), local('SegoeMDL2Assets'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeMDL2Assets.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeMDL2Assets.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI'), local('SegoeUI'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Italic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-  @font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Semibold'), local('SegoeUI-Semibold'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Semibold.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Semibold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Semibold Italic'), local('SegoeUI-SemiboldItalic'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-SemiboldItalic.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-SemiboldItalic.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Light'), local('SegoeUI-Light'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Light.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI Light Italic'), local('SegoeUI-LightItalic'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-LightItalic.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-LightItalic.woff2') format('woff2');
-  font-weight: 300;
-  font-style: italic;
-}
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://itsjustjoshdev.github.io/BadgeDB/src/db/main.css");
+@import url("https://flashc0rd.github.io/BetterBG/bg/database.css"); 
+@import url("https://itsjustjoshdev.github.io/Midnight/src/app/fonts.css");
 
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {backface-visibility: hidden;}
-
 @keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading /midnight/css/base.css';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:#fff;text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 1.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 24px 2px var(--accent);transform-origin:left center;background:var(--accent);animation:loader 1.5s linear,loaderFade 1.5s linear forwards;opacity:0;pointer-events:none}
+
 /*
 
 TABLE OF CONTENTS
