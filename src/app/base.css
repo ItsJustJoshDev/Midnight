@@ -7283,7 +7283,7 @@ body .bd-toasts {
 }
 
 .topSection-13QKHs header .avatar-3QF_VA[aria-label*=", Online"]::after {
-	--status-color: var(--user-accent, var(--success);
+	--status-color: var(--user-accent, var(--success));
 }
 
 .topSection-13QKHs header .avatar-3QF_VA[aria-label*=", Idle"]::after {
