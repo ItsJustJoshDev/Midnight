@@ -29,6 +29,6 @@
 }
 
 /* Fix Lamo */
-.container-1NXEtd[aria-label="Favorites (server)"] .iconContainer-21RCa3 [height="6"] {
+.container-1NXEtd[aria-label="Favorites"] .iconContainer-21RCa3 [height="6"] {
 	width: 20px !important;
 }
