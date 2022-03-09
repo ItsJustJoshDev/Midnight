@@ -29,11 +29,11 @@
 }
 
 /* Fix Lamo */
-.container-1NXEtd[aria-label="Favorites ("] .iconContainer-21RCa3 [height="6"] {
+.iconContainer-21RCa3 [height="6"] {
 	width: 20px !important;
 }
 
-.container-1NXEtd[aria-label="Favorites ("] .iconContainer-21RCa3 [x="14"] {
+.iconContainer-21RCa3 *[x="14"] {
   width: 20px !important;
   height: 20px !important;
 }
