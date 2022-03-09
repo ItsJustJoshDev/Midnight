@@ -27,3 +27,8 @@
 #app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="#3ba55c"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online], #app-mount .wrapper-1VLyxH rect[fill*="hsl(139"] {
   stroke: var(--user-accent, var(--rs-online-color)) !important;
 }
+
+/* Fix Lamo */
+.container-1NXEtd[aria-label="Favorites (server)"] .iconContainer-21RCa3 [height="6"] {
+	width: 20px !important;
+}
