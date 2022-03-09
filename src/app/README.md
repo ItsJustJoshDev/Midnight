@@ -103,7 +103,7 @@
 # 10. Modals
 	- 10.a. Replace Backdrop
 	- 10.b. Global Modals
-	- 10.c. User Profile Modals | Done.
+	- 10.c. User Profile Modals
 	- 10.d. Expanded Image Modal
 	- 10.e. Keyboard Shortcuts Modal
 	- 10.f. Guild Invite Modal
@@ -143,8 +143,6 @@
 # 16. Guild Settings Content
 
 # 17. General Avatars	
-	- 17.a. Roundness and Mask
-	- 17.b. Status
 
 # 18. Plugins
 	- 18.a. ThemeRepo and PluginRepo
