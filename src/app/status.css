@@ -29,7 +29,7 @@
 }
 
 /* Fix Lamo */
-#app-mount .container-1NXEtd[aria-label="Favorites"] .iconContainer-21RCa3 .wrapper-1VLyxH [height="6"] {
+#app-mount .container-1NXEtd[aria-label="Favorites"] .iconContainer-21RCa3 .wrapper-1VLyxH rect[height="6"] {
 	width: 20px !important;
 }
 
