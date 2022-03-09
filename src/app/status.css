@@ -29,11 +29,11 @@
 }
 
 /* Fix Lamo */
-#app-mount .container-1NXEtd[aria-label="Favorites"] .iconContainer-21RCa3 .wrapper-1VLyxH rect[height="6"] {
+.container-1NXEtd[aria-label="Favorites ("] .iconContainer-21RCa3 [height="6"] {
 	width: 20px !important;
 }
 
-#app-mount .container-1NXEtd[aria-label="Favorites"] .iconContainer-21RCa3 .wrapper-1VLyxH rect[x="14"] {
-  width: 20px;
-  height: 20px;
+.container-1NXEtd[aria-label="Favorites ("] .iconContainer-21RCa3 [x="14"] {
+  width: 20px !important;
+  height: 20px !important;
 }
