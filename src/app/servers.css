@@ -1,55 +1,29 @@
 :root {
-
-	--server-glow-intensity: 0.0;
-
-	--unread-colour: var(--accent);
-	--server-unread-colour: var(--unread-colour);
-	--server-hover-colour: var(--hover);
-
-	--guilds-unread-box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) var(--server-unread-colour);
-	--guilds-accent-box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) var(--accent);
-
+	--server-hover-color: var(--hover);
+	--server-unread-color: var(--information);
 }
 
-#app-mount .guilds-2JjMmN .svg-2zuE5p,
-#app-mount .guilds-2JjMmN .wrapper-28eC3z,
+#app-mount .guilds-2JjMmN .closedFolderIconWrapper-3tRb2d foreignObject,
+#app-mount .guilds-2JjMmN [class*=closedFolderIconWrapper] *,
+#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU,
 #app-mount .guilds-2JjMmN .guildsError-b7zR5H,
-#app-mount .guilds-2JjMmN .placeholderMask-2FHNZU {
-	border-radius: var(--guilds-roundness, 50%);
-}
-
-#app-mount .guilds-2JjMmN .wrapper-38slSD {
-	border-radius: var(--guilds-roundness, 50%);
-}
-
-#app-mount .guilds-2JjMmN .closedFolderIconWrapper-3tRb2d foreignObject {
-	border-radius: var(--guilds-roundness, 50%);
-	mask: none !important;
-}
-
-#app-mount .guilds-2JjMmN [class*=closedFolderIconWrapper] * {
-	border-radius: var(--guilds-roundness, 50%);
-	mask: none !important;
-}
-
-#app-mount .guilds-2JjMmN [class*=folder] {
-	border-radius: var(--guilds-roundness, 50%);
-	mask: none !important;
-}
-
+#app-mount .guilds-2JjMmN [class*=folder],
+#app-mount .guilds-2JjMmN .wrapper-38slSD,
+#app-mount .guilds-2JjMmN .wrapper-28eC3z,
+#app-mount .guilds-2JjMmN .svg-2zuE5p,
 #app-mount .svg-2zuE5p foreignObject {
 	border-radius: var(--guilds-roundness, 50%);
 	mask: none !important;
 }
 
-#app-mount .childWrapper-1j_1ub,
+#app-mount .guilds-2JjMmN .iconButton-2z1iK7,
 #app-mount .circleIconButton-1VxDrg,
-#app-mount .guilds-2JjMmN .iconButton-2z1iK7 {
+#app-mount .childWrapper-1j_1ub {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-#app-mount .wrapper-3kah-n.selected-1Drb7Z,
 #app-mount .guilds-2JjMmN .iconButton-2z1iK7.selected-1WnveH,
+#app-mount .wrapper-3kah-n.selected-1Drb7Z,
 #app-mount .circleIconButton-1VxDrg:hover {
 	background: rgba(255, 255, 255, 0.15);
 }
@@ -105,231 +79,194 @@
 	border: 2px solid transparent;
 	box-shadow: none;
 	transform: none !important;
-	transition: var(--transition);
 	transition-property: box-shadow;
 }
 
+#app-mount [class*="pill"] span {
+	border-radius: var(--guilds-roundness, 50%);
+	width: 48px !important;
+}
+
 #app-mount [class*="pill"] span[style*="height: 0"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 1"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 2"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 3"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 4"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 5"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 6"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 7"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 8"] {
-	box-shadow: var(--guilds-unread-box-shadow);
-	border-color: var(--server-unread-colour);
+	border-color: var(--server-unread-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 9"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 10"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 11"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 12"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 13"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 14"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 15"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 16"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 17"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 18"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 19"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 20"] {
-	border-color: var(--server-hover-colour);
-	box-shadow: var(--guilds-unread-box-shadow);
+	border-color: var(--server-hover-color);
 }
 
 #app-mount [class*="pill"] span[style*="height: 21"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 22"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 23"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 24"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 25"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 26"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 27"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 28"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 29"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 30"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 31"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 32"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 33"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 34"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 35"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 36"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 37"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 38"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 39"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
 
 #app-mount [class*="pill"] span[style*="height: 40"] {
 	transform: scale(1) !important;
 	border-color: var(--accent);
-	box-shadow: var(--guilds-accent-box-shadow);
 }
