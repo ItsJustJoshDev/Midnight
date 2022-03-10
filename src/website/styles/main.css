@@ -264,6 +264,38 @@ body::-webkit-scrollbar-track {
   width:fit-content;
 }
 
+.card.developer.retired {
+  background:var(--unavailable);
+  box-shadow:0 0 12px var(--unavailable);
+  border-color:#fff;
+}
+
+.card.developer:hover {
+  background:var(--success);
+  box-shadow:0 0 12px var(--success);
+  border-color:#fff;
+}
+
+.card.developer.retired:hover {
+  background:var(--caution);
+  box-shadow:0 0 12px var(--caution);
+}
+
+.card:hover {
+  border-top:2px solid var(--success);
+  background:var(--lv1);
+}
+
+.card.helper.retired {
+  border-top:2px solid var(--unavailable);
+  background:var(--lv1);
+}
+
+.card.helper.retired:hover {
+  border-top:2px solid var(--caution);
+  background:var(--lv1);
+}
+
 .card {
   width:200px;
   height:fit-content;
