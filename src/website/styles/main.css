@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
-@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css');
 
 /*Root*/
 :root {
@@ -12,13 +11,24 @@
   --lvl-bg-opacity:0.25;
   --lvl-bg-fade:80%;
 
-/*Status Variables*/
+  /*Status Variables*/
   --online: #43b581;
   --idle: #faa61a;
   --dnd: #f04747;
   --offline: #636b75;
   --invisible: #747f8d;
   --streaming: #643da7;
+
+  --success: #11d85d;
+	--caution: #ffd104;
+	--danger: #e20b0b;
+	--unavailable: #636b75;
+	--invisible: #747f8d;
+	--information: #4a90e2;
+	--twitch-purple: #9146FF;
+	--spotify-green: #1DB954;
+	--xbox-green: #0e7a0d;
+  --netflix-red: #e50914;
 
 /*Other Variables*/
   --BetterDocsBlockerBlack1:var(--lv1);
