@@ -1,8 +1,44 @@
 :root {
+
+	/* Midnight Vars */
 	--server-hover-color: var(--hover);
 	--server-unread-color: var(--information);
+
+/*
+	Fallbacks
+
+	--accent: var(--brand-experiment);
+	--hover: var(--brand-experiment-300);
+	--guilds-roundness: 0%;
+	--information: var(--header-primary);
+	--server-hover-color: var(--hover);
+	--server-unread-color: var(--information);
+	--caution: var(--accent);
+
+*/
+
 }
 
+/* Inbox */
+#app-mount .guilds-2JjMmN .iconButton-2z1iK7 .iconBadge-2t2laP {
+	height: 92% !important;
+	width: 67%;
+	margin: 0;
+	left: 10px;
+	top: 0;
+	background: none;
+	border: 2px solid var(--caution);
+	border-radius: var(--guilds-roundness, 50%);
+	box-shadow: none;
+	pointer-events: none;
+	position: absolute;
+}
+
+#app-mount .guilds-2JjMmN .iconButton-2z1iK7 .iconMask-2moq4Q * {
+	mask: none !important;
+}
+
+/* Guilds */
 #app-mount .guilds-2JjMmN .closedFolderIconWrapper-3tRb2d foreignObject,
 #app-mount .guilds-2JjMmN [class*=closedFolderIconWrapper] *,
 #app-mount .guilds-2JjMmN .placeholderMask-2FHNZU,
@@ -41,31 +77,13 @@
 	fill: var(--accent) !important;
 }
 
-#app-mount .guilds-2JjMmN .iconButton-2z1iK7 .iconBadge-2t2laP {
-	height: 92% !important;
-	width: 67%;
-	margin: 0;
-	left: 10px;
-	top: 0;
-	background: none;
-	border: 2px solid var(--caution);
-	border-radius: var(--guilds-roundness, 50%);
-	box-shadow: none;
-	pointer-events: none;
-	position: absolute;
-}
-
-#app-mount .guilds-2JjMmN .iconButton-2z1iK7 .iconMask-2moq4Q * {
-	mask: none !important;
-}
-
 #app-mount [class*="pill"] {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	width: 67%;
 	height: 100%;
-	overflow: visible;
+	overflow: visible !important;
 	margin-left: -2px;
 	z-index: 0;
 }
@@ -78,11 +96,14 @@
 	background: transparent;
 	border: 2px solid transparent;
 	box-shadow: none;
+	transition: ease 300ms;
 	transform: none !important;
+	overflow: visible !important;
 	transition-property: box-shadow;
 }
 
 #app-mount [class*="pill"] span {
+	transition: ease 300ms;
 	border-radius: var(--guilds-roundness, 50%);
 	width: 48px !important;
 }
@@ -270,3 +291,4 @@
 	transform: scale(1) !important;
 	border-color: var(--accent);
 }
+
