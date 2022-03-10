@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url("https://itsjustjoshdev.github.io/Midnight/src/app/fonts.css");
 
 /*Root*/
 :root {
@@ -20,14 +19,14 @@
   --streaming: #643da7;
 
   --success: #11d85d;
-	--caution: #ffd104;
-	--danger: #e20b0b;
-	--unavailable: #636b75;
-	--invisible: #747f8d;
-	--information: #4a90e2;
-	--twitch-purple: #9146FF;
-	--spotify-green: #1DB954;
-	--xbox-green: #0e7a0d;
+  --caution: #ffd104;
+  --danger: #e20b0b;
+  --unavailable: #636b75;
+  --invisible: #747f8d;
+  --information: #4a90e2;
+  --twitch-purple: #9146FF;
+  --spotify-green: #1DB954;
+  --xbox-green: #0e7a0d;
   --netflix-red: #e50914;
 
 /*Other Variables*/
