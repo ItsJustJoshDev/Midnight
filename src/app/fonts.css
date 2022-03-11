@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 @import url(https://rsms.me/inter/inter.css);
 
+/*
 @font-face {
   font-family: 'Segoe UI Emoji';
   src: local('Segoe UI Emoji'), local('SegoeUIEmoji'),
@@ -19,17 +20,17 @@
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 @font-face {
   font-family: 'Segoe MDL2 Assets';
   src: local('Segoe MDL2 Assets'), local('SegoeMDL2Assets'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeMDL2Assets.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeMDL2Assets.woff2') format('woff2');
+    url('https://itsjustjoshdev.github.io/Midnight/src/app/fonts/SegMDL2.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
-
+/*
 @font-face {
   font-family: 'Segoe UI';
   src: local('Segoe UI'), local('SegoeUI'),
@@ -101,3 +102,4 @@
   font-weight: 300;
   font-style: italic;
 }
+*/
