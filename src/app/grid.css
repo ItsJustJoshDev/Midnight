@@ -101,16 +101,16 @@
 }
 
 /* Can't Recreate This anymore Sadage */
-.peopleListItem-u6dGxF .avatar-2MSPKk *::before,
-.peopleListItem-u6dGxF .wrapper-1VLyxH *::before {
+.peopleListItem-u6dGxF .avatar-2MSPKk::before,
+.peopleListItem-u6dGxF .wrapper-1VLyxH::before {
 	content: "";
 	height: 144px;
 	width: 250px;
-    background-image: inherit;
-    filter: blur(18px) brightness(.65);
-    transition:500ms ease transform, 350ms ease filter;
-	z-index:-2;
-	top: -16px; left: -16px;
+    background: inherit;
+    filter: blur(2px) brightness(.45);
+    transition: 500ms ease transform, 350ms ease filter;
+	z-index:-3;
+	top: -16px; left: -15px;
 	position: absolute;
 }
 
@@ -120,11 +120,12 @@
 	height: 144px;
 	width: 250px;
 	top: -16px; left: -16px;
+	z-index: 5;
 	border-top: 3px solid var(--status-color);
 	position: absolute;
 }
 
-.peopleListItem-u6dGxF .wrapper-1VLyxH::after {
+:root {
 	--success: #11d85d;
 	--caution: #ffd104;
 	--danger: #e20b0b;
