@@ -2,7 +2,7 @@
 
 	/* Midnight Vars */
 	--server-hover-color: var(--hover);
-	--server-unread-color: var(--information);
+	--server-unread-color: var(--accent);
 
 /*
 	Fallbacks
