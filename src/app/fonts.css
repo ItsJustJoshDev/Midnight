@@ -23,6 +23,22 @@
 */
 
 @font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), local('SegoeUI'),
+    url('https://itsjustjoshdev.github.io/Midnight/src/app/fonts/segoeui.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe Fluent Icons";
+  src: local("Segoe Fluent Icons"), 
+	url("https://itsjustjoshdev.github.io/Midnight/src/app/fonts/Segoe-Fluent-Icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Segoe MDL2 Assets';
   src: local('Segoe MDL2 Assets'), local('SegoeMDL2Assets'),
     url('https://itsjustjoshdev.github.io/Midnight/src/app/fonts/SegMDL2.ttf') format('woff2');
@@ -31,15 +47,6 @@
 }
 
 /*
-@font-face {
-  font-family: 'Segoe UI';
-  src: local('Segoe UI'), local('SegoeUI'),
-    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI.woff2') format('woff2'),
-    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'Segoe UI Italic';
   src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
